@@ -1,0 +1,6 @@
+#3. Faça um Programa que peça dois números e imprima a soma.
+
+a = int(input('Informe o número a:'))
+b = int(input('Informe o número b:'))
+r = a + b
+print('resultado:', r)
