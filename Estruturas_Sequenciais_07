@@ -1,0 +1,11 @@
+#Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário.
+
+import math
+
+print('Progama para calcular a área de um quadrado')
+
+l = float(input('Informe a medida de um dos lados:'))
+
+a= l*l
+
+print('Área do quadrado:', a,"\nDobro da Área do quadrado:", a*2)
