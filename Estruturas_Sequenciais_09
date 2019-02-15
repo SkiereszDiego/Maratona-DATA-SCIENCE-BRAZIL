@@ -1,0 +1,9 @@
+#Faça um Programa que peça a temperatura em graus Farenheit, transforme e mostre a temperatura em graus Celsius.
+
+print('Progama para transformar graus Farenheit em Celsius ')
+
+F = float(input("Insira a temperatura em Farenheit: "))
+
+C = 5 * (F-32) / 9.
+
+print(f'Temperatura em Celsius é:{C:.1f} graus')
