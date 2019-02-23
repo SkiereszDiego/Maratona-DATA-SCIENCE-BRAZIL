@@ -1,0 +1,11 @@
+#Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.
+
+
+sexo = int(input('Digite seu Sexo -- (1)Masculino (2)Feminino: '))
+
+if sexo == 1:
+    print ('Masculino')
+elif sexo == 2:
+    print ('Feminino')
+else:
+    print ('Intrada invalida !!')
